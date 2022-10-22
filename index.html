@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Wish to Santa</title>
+</head>
+<body>
+	<div class="container">
+			<h2>Send wish to Santa</h2>
+			<div class="add">
+				<input type="text" id="name" placeholder="Enter your Name" autocomplete="off">
+    			<input type="text" id="wish" placeholder="Enter your wish">
+    			<button type="submit" onclick="addmarks();">Send wish to Santa</button>
+    			<p id="info"></p>
+			</div>
+			<div class="show">
+				<input type="text" id="stuname" placeholder="Enter your name "><br>
+				<button onclick="result();">Check reply from Santa!</button>
+				<p id="output"></p>
+			</div>	
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
